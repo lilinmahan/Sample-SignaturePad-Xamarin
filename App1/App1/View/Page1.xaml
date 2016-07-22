@@ -23,7 +23,14 @@
           StrokeWidth="10"
           
             />
+    <Button Text="Save"
+            x:Name="btnSave"
+      ></Button>
 
+      <Image Aspect="AspectFit"
+                 HeightRequest="100"
+                 x:Name="testImage"
+             BackgroundColor="Aqua"/>
     </StackLayout>
   </ScrollView>
   
